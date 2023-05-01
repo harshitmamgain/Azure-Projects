@@ -9,7 +9,8 @@ In this Project, I have implemented Virtual Networking solution for Virtual Mach
      - Network Security Group
      - Private DNS Zones
      - DNS Zones
-- Please refer to the DOCX file for a detailed report and screen captures.  
+- Please refer to the DOC file for a detailed report and screen captures.
+- JSON Templates for Virtual Network.
 
 # Steps
 
