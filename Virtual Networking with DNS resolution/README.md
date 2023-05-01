@@ -29,4 +29,4 @@ In this Project, I have implemented Virtual Networking solution for Virtual Mach
 
 # Conclusion
 
-I have succesfully implemented Internal Name Resoultion and External Name resolution for the Machines on the Virtual network to make it easier to remember domain names instead of hard to remember the Internal and External IP addresses. To add further to this project, this DNS resolution can be useful in load distribution and faster access using caching.
+I have succesfully implemented Internal Name Resoultion and External Name resolution for the Machines on the Virtual network to make it easier to remember domain names instead of hard to remember the Internal and External IP addresses.
