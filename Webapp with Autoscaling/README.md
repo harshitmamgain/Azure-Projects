@@ -74,7 +74,7 @@ In this project, I created a 'Hello World' application on Azure App Service and 
   - Cool Down – 5 minutes
   - Instance Count – 1
   
--The Minimum instances are set to 1, Maxminum instances are set to 2 and the Default Instances are set to 1.
+- The Minimum instances are set to 1, Maxminum instances are set to 2 and the Default Instances are set to 1.
  
 The autoscaling rule that was created is set to trigger a scale-out action when the 'ASP-az10409arg1-b779' app service plan exceeds a maximum CPU percentage of 10. The action to be taken in this case is to increase the count by 1, allowing the WebApp to scale-out and handle increased traffic and demand. 
 
