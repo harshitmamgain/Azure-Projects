@@ -2,7 +2,7 @@
 
 In this project, I created a 'Hello World' application on Azure App Service and configured autoscaling to ensure optimal performance and availability. This included setting up an autoscaling rule based on CPU percentage, allowing the application to automatically scale-out as needed to handle increased traffic and demand. These measures help to ensure a seamless user experience and prevent potential downtime during periods of high traffic or demand.
 
-# Project Details
+# Overview
  - The services that were used during the course of this Projects are as follows:
      - Powershell 
      - App Service
