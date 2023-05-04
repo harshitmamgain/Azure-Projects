@@ -60,10 +60,10 @@ In this Project, I have created a 'Hello World' application on WebApp and config
 - To ensure optimal performance and availability, I have set up autoscaling rules based on relevant metrics, allowing the WebApp to automatically scale out as needed. This helps to maintain a consistent user experience and prevents potential downtime during periods of high traffic or demand.
 
 - The Scaling rule is as follows 
-  - Metric Source – This is the current resource (the app service plan that I want to scale out)
-  - Metric Namespace – Standard Metrics
-  - Metric Name – I have selected the CPU Percentage. There are multiple Metrics available like Data in, Data out, Http Queue length, TCP Time wait etc
-  - Operator  - Greater than
+  - Metric Source - ASP-az10409arg1-b779
+  - Metric Namespace - Standard Metrics
+  - Metric Name - CPU Percentage
+  - Operator - Greater than
   - Metric threshold to trigger action – 10 (at what metric or value should the action be triggered at)
   - Duration – 1 Minute
   - Time Grain – Maximum
@@ -74,6 +74,8 @@ In this Project, I have created a 'Hello World' application on WebApp and config
   - Cool Down – 5 minutes
   - Instance Count – 1
   
+-The Minimum instances are set to 1, Maxminum instances are set to 2 and the Default Instances are set to 1.
+ 
 The autoscaling rule that was created is set to trigger a scale-out action when the 'ASP-az10409arg1-b779' app service plan exceeds a maximum CPU percentage of 10. The action to be taken in this case is to increase the count by 1, allowing the WebApp to scale-out and handle increased traffic and demand. 
 
 
