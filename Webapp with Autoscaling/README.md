@@ -1,14 +1,15 @@
 # Implementing WebApp with Autoscaling
 
-In this Project, I have created a 'Hello World' application on WebApp and configured Autoscaling for this application.
+In this project, I created a 'Hello World' application on Azure App Service and configured autoscaling to ensure optimal performance and availability. This included setting up an autoscaling rule based on CPU percentage, allowing the application to automatically scale-out as needed to handle increased traffic and demand. These measures help to ensure a seamless user experience and prevent potential downtime during periods of high traffic or demand.
 
 # Project Details
  - The services that were used during the course of this Projects are as follows:
      - Powershell 
      - App Service
      - Deployment Slots
+     - GitHub
      - Autoscaling the App Service Plan by Scaling Out 
-- Please refer to the DOC file for a detailed report.
+   
 
 # Steps
 
@@ -23,7 +24,7 @@ In this Project, I have created a 'Hello World' application on WebApp and config
   ![1](https://user-images.githubusercontent.com/106948902/236281797-1a60d2cc-e0bc-4c1d-b9cd-b6f10228cfdf.jpg)
  
 
-- WebApp Succesfully Deployed using the following Domain Name: arsenalfootballclub.azurewebsites.net
+- WebApp has been successfully deployed and is now accessible using the following domain name: 'arsenalfootballclub.azurewebsites.net'. This ensures that users can access the latest version of the application.
  
  
   ![2](https://user-images.githubusercontent.com/106948902/236281877-cd484dd6-c0af-4328-baef-46565f911fea.jpg)
