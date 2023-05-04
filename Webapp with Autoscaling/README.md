@@ -9,7 +9,6 @@ In this Project, I have created a 'Hello World' application on WebApp and config
      - Deployment Slots
      - Autoscaling the App Service Plan by Scaling Out 
 - Please refer to the DOC file for a detailed report.
-- JSON Templates for Virtual Network.
 
 # Steps
 
