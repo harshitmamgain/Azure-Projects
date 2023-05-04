@@ -57,7 +57,6 @@ In this project, I created a 'Hello World' application on Azure App Service and 
 - Application is in the Producation Deployment slot and is available to everyone.  
   
   ![9](https://user-images.githubusercontent.com/106948902/236282751-b3acfdbd-b953-4ed6-9109-f4fa2ab9ef04.jpg)
-
 - To ensure optimal performance and availability, I have set up autoscaling rules based on relevant metrics, allowing the WebApp to automatically scale out as needed. This helps to maintain a consistent user experience and prevents potential downtime during periods of high traffic or demand.
 
 - The Scaling rule is as follows 
