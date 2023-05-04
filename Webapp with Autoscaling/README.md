@@ -6,8 +6,8 @@ In this project, I created a 'Hello World' application on Azure App Service and 
  - The services that were used during the course of this Projects are as follows:
      - Powershell 
      - App Service
-     - Deployment Slots
      - GitHub
+     - Deployment Slots
      - Autoscaling the App Service Plan by Scaling Out 
    
 
