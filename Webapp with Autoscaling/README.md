@@ -40,13 +40,13 @@ In this project, I created a 'Hello World' application on Azure App Service and 
 
 - Using PowerShell, I have successfully cloned the application from GitHub and deployed it to the Staging slot. This allows us to test the application's performance and functionality in a dedicated environment before making it available to users. I have used the following commands:
 
-  PS /home/harshit> git clone https://github.com/Azure-Samples/php-docs-hello-world <br>
+  >PS /home/harshit> git clone https://github.com/Azure-Samples/php-docs-hello-world <br>
 
-  PS /home/harshit> Set-Location -Path $HOME/php-docs-hello-world/ <br>
+  >PS /home/harshit> Set-Location -Path $HOME/php-docs-hello-world/ <br>
 
-  PS /home/harshit/php-docs-hello-world> git remote add arsenalfootballclub https://arsenalfootballclub-staging.scm.azurewebsites.net:443/arsenalfootballclub.git <br>
+  >PS /home/harshit/php-docs-hello-world> git remote add arsenalfootballclub https://arsenalfootballclub-staging.scm.azurewebsites.net:443/arsenalfootballclub.git <br>
 
-  PS /home/harshit/php-docs-hello-world> git push arsenalfootballclub master  
+  >PS /home/harshit/php-docs-hello-world> git push arsenalfootballclub master  
 
   ![15](https://user-images.githubusercontent.com/106948902/236282426-18f93993-a6a1-4d55-8d75-56fb1b830b03.png)
 
@@ -85,9 +85,13 @@ The autoscaling rule that was created is set to trigger a scale-out action when 
 
 - As a final step, I am testing the autoscaling rule that was created using PowerShell commands. This ensures that the WebApp can handle increased traffic and usage, and that the autoscaling rules are functioning as intended. Any issues identified during testing can be addressed before the application is made available to users, ensuring a seamless experience.
 
-$rgName = 'az104-09a-rg1' <br>
-$webapp = Get-AzWebApp -ResourceGroupName $rgName <br>
-while ($true) { Invoke-WebRequest -Uri $webapp.DefaultHostName }
+  >$rgName = 'az104-09a-rg1' <br>
+  >$webapp = Get-AzWebApp -ResourceGroupName $rgName <br>
+  >while ($true) { Invoke-WebRequest -Uri $webapp.DefaultHostName }
+
+- The 'Invoke-WebRequest' is a PowerShell cmdlet that sends HTTP/HTTPS requests to  web service and returns the response as an object. When the CPU percentage exceeded 10% on the Linux machine running under the WebApp, the autoscaling rule triggered and the number of instances increased to two. This confirms that the autoscaling rule was successfully configured and is functioning as intended, ensuring the application can handle increased traffic and demand without impacting user experience.
+
+![20](https://user-images.githubusercontent.com/106948902/236313832-d9911f8b-dea8-46ca-87c8-eed38c362d75.jpg)
 
    
 # Troubleshooting
